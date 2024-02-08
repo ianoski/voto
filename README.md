@@ -6,7 +6,7 @@ arquivo das classes: voto_class.js
 interface com o usuário: voto.html
 estilo do sistema: voto.css
 
-Product Outher: Gabriela Ianoski
+Product Outher: Carlos Silva
 Scrum Master: Letícia
 Dev Team:
 - Thalita Santos

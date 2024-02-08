@@ -8,12 +8,16 @@ verificar.addEventListener(`click`, ()=>{
 
     console.log("dados do formulário",nome,idade,titulo)
 
-    const cidadao = new Eleitor
+    const cidadao = new Eleitor()
 
     cidadao.nome = nome
     cidadao.idade = idade
     cidadao.titulo = titulo
 
-    console.log("instância do objeto",cidadao)
-    
+    let mensagem = cidadao.verificaVoto()
+
+    resposta.innerHTML = ''
+    resposta.innerHTML += `O elitor ${cidadao.nome}<br>` 
+    resposta.innerHTML += `tem${cidadao.idade} anos de idade <br>`
+    resposta.innerHTML += `<br>`
 })

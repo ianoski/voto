@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(218, 118, 188);
+    color: rgb(0, 0, 0);
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+input, button{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border-radius: 8px;
+}
+
+input::placeholder{
+    color: rgb(255, 255, 255);
+}
+
+button:hover{
+    background-color: rgb(172, 81, 144);
+}
+
+button{
+    cursor: pointer;
+}

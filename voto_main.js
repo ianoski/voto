@@ -6,6 +6,14 @@ verificar.addEventListener(`click`, ()=>{
     let idade = Number(document.getElementById('idade').value)
     let titulo = Number (document.getElementById('titulo').value)
 
-    console.log(nome,idade,titulo)
+    console.log("dados do formulário",nome,idade,titulo)
+
+    const cidadao = new Eleitor
+
+    cidadao.nome = nome
+    cidadao.idade = idade
+    cidadao.titulo = titulo
+
+    console.log("instância do objeto",cidadao)
     
 })
